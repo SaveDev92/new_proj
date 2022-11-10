@@ -9,6 +9,7 @@
         background-color: transparent;
         border: none;
         padding: 0;
+        cursor: pointer;
     }
 }
 
@@ -28,6 +29,5 @@
     &__list-link{
         @extend %fz-mont-bold;
         opacity: 0.9;
-        color: green;
     }
 }
