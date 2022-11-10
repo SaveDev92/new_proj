@@ -1,0 +1,32 @@
+.header{
+    &__inner{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 120px;
+    }
+    &__btn{
+        background-color: transparent;
+        border: none;
+        padding: 0;
+    }
+}
+
+.logo{
+    margin: 0 auto;
+}
+
+.menu{
+    padding-left: 35px;
+    padding-right: 60px;
+
+    &__list{
+        display: flex;
+        gap: 80px;   
+    }
+
+    &__list-link{
+        @extend %fz-mont-bold;
+        opacity: 0.9;
+    }
+}
